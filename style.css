@@ -1,0 +1,154 @@
+body, html {
+    font-family: cursive;
+
+    width: 100%;
+}
+html{
+    height: 100%;
+}
+/*for background image*/
+.back1 {
+    background-image: url("bg.jpg");
+    width: 100%;
+    height: 220px;
+    background-size: cover;
+}
+.back2 {
+    background-image: url("BackTimetable.jpg");
+    width: 100%;
+    background-size: cover;
+}
+/*for navigation bar*/
+.head1{
+    background-color:rgba(0,0,0,0.6);
+    font-size: 20px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    color: wheat;
+}
+.right{
+    float: right;
+    margin: 0 5px;
+}
+.buton{
+    background-color: rgba(0,0,0,0);
+    border: none;
+    cursor: pointer;
+
+}
+a {
+
+    display: block;
+    color: wheat;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.left{
+    float: left;
+    margin-left: 5px;
+}
+a:hover:not(.active) {
+    background-color: rgba(0,0,0,0.2);
+    border-radius:7px;
+}
+
+/*for footer*/
+.foots{
+    position:fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background:rgba(0,0,0,0);
+    text-align: center;
+}
+
+/*for Content*/
+.data{
+    text-align: center;
+    margin: 10px auto;
+    width: 60%;
+    color: wheat;
+}
+.cont{
+    height: 30px;
+    background-color:rgba(0,0,0,0);
+    padding-top: 40px;
+}
+
+.cont1{
+    height: 1000px;
+    width: 85%;
+    margin: 0px auto;
+}
+.cont3{
+    height: 100%;
+    width: 50%;
+    float:left;
+}
+.cont2{
+    height: 100%;
+    width: 50%;
+    float: right;
+}
+.exer{
+    color: darkslategray;
+    margin-top:  10px;
+    width: 100%;
+    font-size:30px;
+
+}
+
+.exer1{
+    color: darkslategray;
+    text-align: left;
+    width: 100%;
+    font-size:20px;
+}
+.login{
+    height:600px;
+    background-color: lightgrey;
+    border-radius: 3px;
+}
+.about1{
+    width:80%;
+    margin:100px auto;
+}
+.about2{
+    width:50%;
+    height: 100%;
+    float: left;
+    text-align: center;
+    background-color: lightgrey;
+    margin: 10px 0px;
+}
+.about3{
+    width:50%;
+    height: 100%;
+    float:right;
+    text-align: center;
+    background-color: lightgrey;
+     margin: 10px 0px;
+}
+.headingfac{
+    font-size: 100px;
+    font-family: Arial ;
+    text-align: center;
+    margin: 10px 0px;
+}
+.time1{
+    width:80%;
+    margin:100px auto; 
+    color: wheat;
+}
+@media screen and (max-width: 990px) {
+    .cont2,.cont3,{
+        float: none;
+        width: 100%;
+    }
+    .headingfac{
+        font-size: 40px;
+    }
+}
